@@ -1,0 +1,22 @@
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Archivos de Desarrollo/Editores ---
+.vscode/
+.idea/
+*.swp
+*.log
+
+# --- Datos Locales de la App ---
+# Aunque la app usa localStorage (que vive en el navegador), 
+# si usaras algún entorno de pruebas local:
+.cache/
+dist/
+node_modules/
+
+# --- Archivos de configuración de APK (si usas herramientas externas) ---
+*.apk
+*.keystore
+/build/
