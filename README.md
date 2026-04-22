@@ -21,3 +21,10 @@ Al ser una aplicación basada exclusivamente en tecnologías web (HTML5, CSS3 y 
 1. **Clona el repositorio:**
    ```bash
    git clone [https://github.com/tu-usuario/radioactive.git](https://github.com/tu-usuario/radioactive.git)
+
+## 📱 Roadmap Android (nuevo)
+Si quieres convertir RadioActive en una app Android completa (móvil, Android Auto, TV y Chromecast), ya tienes una propuesta técnica y de producto en:
+
+- [`ROADMAP_ANDROID.md`](./ROADMAP_ANDROID.md)
+
+Incluye stack recomendado en Kotlin/Compose/Media3, plan por fases y arquitectura para escalar.
