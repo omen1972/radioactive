@@ -21,3 +21,25 @@ Al ser una aplicación basada exclusivamente en tecnologías web (HTML5, CSS3 y 
 1. **Clona el repositorio:**
    ```bash
    git clone [https://github.com/tu-usuario/radioactive.git](https://github.com/tu-usuario/radioactive.git)
+
+## 📱 Roadmap Android (nuevo)
+Si quieres convertir RadioActive en una app Android completa (móvil, Android Auto, TV y Chromecast), ya tienes una propuesta técnica y de producto en:
+
+- [`ROADMAP_ANDROID.md`](./ROADMAP_ANDROID.md)
+
+Incluye stack recomendado en Kotlin/Compose/Media3, plan por fases y arquitectura para escalar.
+
+## 🤖 Prototipo Android (bootstrap)
+Se ha añadido una base de proyecto Android en `./android` para empezar la app nativa con Kotlin + Jetpack Compose.
+
+### Qué incluye
+- Proyecto Gradle multi-módulo inicial (`:app`).
+- Pantalla prototipo con:
+  - Búsqueda por texto.
+  - Filtros por país, ciudad y estilo.
+  - Gestión local de favoritos (en memoria).
+
+### Cómo ejecutarlo
+1. Abre la carpeta `android/` en Android Studio (Hedgehog o superior).
+2. Sincroniza Gradle.
+3. Ejecuta `app` en un emulador Android 8+.
